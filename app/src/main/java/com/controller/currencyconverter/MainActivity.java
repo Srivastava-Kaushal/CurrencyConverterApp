@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
         Double amountInDollar=amountInRupeeDouble*0.013;
         TextView dollar =(TextView) findViewById(R.id.dollar);
         dollar.setText("$ "+amountInDollar);
-        Toast.makeText(this, "$ "+amountInDollar, Toast.LENGTH_SHORT).show();
 
 
     }
